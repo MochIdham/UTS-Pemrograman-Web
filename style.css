@@ -1,0 +1,44 @@
+*{
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    }
+
+.data{
+    text-align: left;
+}
+
+label {
+    text-align: left;
+}
+.kotak{
+    display:block;
+    flex-direction: column;
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertikal*/
+    height: 100vh;
+}
+    lable,
+input{
+    display: block;
+}
+.form-input{
+    background-color: rgb(92, 147, 196);
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#btn-kirim{
+    background-color: rgb(58, 58, 155);
+    color: white;
+    padding: 10px;
+    border: none;border-radius: 5px;
+    cursor: pointer;
+}
+#btn-reset{
+    background-color: rgb(58, 58, 155);
+    color: white;
+    padding: 10px;
+    border: none;border-radius: 5px;
+    cursor: pointer;
+}
